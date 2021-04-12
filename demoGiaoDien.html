@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Trang Chủ</title>
+        <link href="styleDemo.css" rel="stylesheet" type="text/css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com"> 
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="header">
+            <div class="container">
+                <div class="navbar">
+                    <div class="div">
+                        <img src="images/logo.png" width="125px">
+                    </div>
+                    <nav>
+                        <ul id="MenuItems">
+                            <li><a href="">Trang Chủ</a></li>
+                            <li><a href="sanPham.html">Sản Phẩm</a></li>
+                            <li><a href="hoTro.html">Hổ Trợ</a></li>
+                            <li><a href="">Liên Hệ</a></li>
+                            <li><a href="taikhoan.html">Tài Khoản</a></li>
+                        </ul>
+                    </nav>
+                    <a href=""><img src="images/cart.png" width="30px" height="30px"></a>
+                    <img src="images/menu.png" class="menu-icon" onclick="menutoggle()" >
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <h1>Hãy thay đổi phong cách<br>cho buổi tập luyện</h1>
+                        <p>Thành công không đến từ mai mắn mà đến từ sự luyện tập.</p>
+                        <a href="sanPham.html" class="btn">Khám Phá &#8594</a>
+                    </div>
+                    <div class="col-2">
+                        <img src="images/image1.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="categories">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-3">
+                        <img src="images/category-1.jpg">
+                    </div>
+                    <div class="col-3">
+                        <img src="images/category-2.jpg">
+                    </div>
+                    <div class="col-3">
+                        <img src="images/category-3.jpg">
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+        <div class="small-container">
+            <h2 class="title">Sản Phẩm Nổi Bật</h2>
+            <div class="row">
+                <div class="col-4">
+                    <a href="chiTietSanPham.html"><img src="images/product-1.jpg"></a>
+                    <h4>T-shirt Puma Red</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>1.100.000VNĐ</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-2.jpg">
+                    <h4>HRX back</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>2.100.000VNĐ</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-3.jpg">
+                    <h4>Beneton Grays</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p>700.000VNĐ</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-4.jpg">
+                    <h4>T-shirt Puma Purple</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>1.100.000VNĐ</p>
+                </div>
+            </div>
+            <h2 class="title">Sản Phẩm Mới</h2>
+            <div class="row">
+                <div class="col-4">
+                    <img src="images/product-5.jpg">
+                    <h4>Shoes</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>2.100.000VNĐ</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-6.jpg">
+                    <h4>T-shirt Puma Brown</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>1.100.000VNĐ</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-7.jpg">
+                    <h4>HRX </h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p>350.000VNĐ</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-8.jpg">
+                    <h4>Fossil</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>1.800.000VNĐ</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <img src="images/product-9.jpg">
+                    <h4>Roadster</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>4.100.000VNĐ</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-10.jpg">
+                    <h4>HRX shoes</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>2.100.000VNĐ</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-11.jpg">
+                    <h4>Shoes</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p>2.111.111VNĐ</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-12.jpg">
+                    <h4>Nike back</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>650.000VNĐ</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="offer">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-2">
+                        <img src="images/exclusive.png" class="offer-img"/>
+                    </div>
+                    <div class="col-2">
+                        <p>Có Sẵn Tại Redstore</p>
+                        <h1>Smart band 4</h1>
+                        <small>Mi Smart Band 4 có màn hình cảm ứng sử dụng tấm nền AMOLED lớn hơn 39.95% (so với Mi Smart Band 3) với độ sáng cao, giúp thoải mái sử dụng ngoài trời </small>
+                        <a href="" class="btn">Mua Ngay &#8594</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="testimonial">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-3">
+                        <i class="fa fa-quote-left"></i>
+                        <p>Ăn mặc đẹp không những khiến bạn đẹp hơn mà còn khiến bạn thành công hơn, vì vậy chúng ta nên mặc đẹp. Thời trang Redstore khiến tôi rất hài lòng về kiểu dáng và chất lượng. Tôi luôn chọn trang phục Redstore làm bạn đồng hành.
+                        </p>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <img src="images/user-1.png">
+                        <h3>Sean parker</h3>
+                    </div>
+                    <div class="col-3">
+                        <i class="fa fa-quote-left"></i>
+                        <p>Sản phẩm tốt tôi đã thấy hài lòng rất nhiều về Redstore
+                        </p>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <img src="images/user-2.png">
+                        <h3>Mike smith</h3>
+                    </div>
+                    <div class="col-3">
+                        <i class="fa fa-quote-left"></i>
+                        <p>Tôi đã có thêm nhiều phong cách mới cũng như đã đạt được hiệu quả luyện tập cao khi gắn bó với Redstore.
+                        </p>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <img src="images/user-3.png">
+                        <h3>Mable joe</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Tải Xuống Ứng Dụng</h3>
+                        <p>Tải xuống ứng dụng Android và Ios tại đây</p>
+                        <div class="app-logo">
+                            <img src="images/play-store.png">
+                            <img src="images/app-store.png">
+                        </div>
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="images/logo-white.png">
+                        <p>Lợi ích của khách hàng được đặt lên hàng đầu.</p>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Liên Kết</h3>
+                        <ul>
+                            <li>Phiếu Giảm Giá</li>
+                            <li>Bài viết</li>
+                            <li>Chính sách đổi trả</li>
+                            <li>Tham gia vào nhóm REDSTORE</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Theo Dõi</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                            <li>Instagram</li>
+                            <li>Youtube</li>
+                        </ul>
+                        
+                    </div>
+                </div>
+                <hr>
+                <p class="right">Trần Phúc An DH18TIN01 - Demo Giao Diện Web Shop Thương Mại Điện Tử Thể Thao</p>
+            </div>
+        </div>
+
+        <script>
+            var MenuItems = document.getElementById("MenuItems");
+            MenuItems.style.maxHeight = "0px";
+            function menutoggle(){
+                if(MenuItems.style.maxHeight == "0px")
+                {
+                    MenuItems.style.maxHeight = "200px"
+                }else{
+                    MenuItems.style.maxHeight = "0px"
+                }
+            }
+        </script>
+    </body>
+</html>
